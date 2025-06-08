@@ -1,0 +1,56 @@
+body {
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  max-width: 1440px;
+}
+.green-text {
+  color: hsl(75, 94%, 57%);
+  font-size: 15px;
+}
+.grey-text {
+  color: hsl(0, 1%, 58%);
+  font-size: 14px;
+}
+.name {
+  font-size: 25px;
+}
+.centered-container {
+  border-radius: 20px;
+  height: 100vh;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  width: fit-content;
+  padding: 17px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button {
+  min-width: 200px;
+  padding: 12px 20px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 9px;
+  opacity: 0.9;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M6 2c0-1.1.9-2 2-2s2 .9 2 2v6h2c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8h2V2z" fill="black"/></svg>')
+      10 10,
+    pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 13px;
+  
+}
+.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 70%;
+  object-fit: cover;
+}
