@@ -1,5 +1,12 @@
+html{
+  height: 100vh; 
+}
+
 body {
-  align-items: center;
+  height: 100%; 
+  display: flex; 
+  justify-items: center;
+  align-items: center; 
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   font-size: 14px;
@@ -7,20 +14,23 @@ body {
   font-weight: 400;
   max-width: 1440px;
 }
+
 .green-text {
   color: hsl(75, 94%, 57%);
   font-size: 15px;
 }
+
 .grey-text {
   color: hsl(0, 1%, 58%);
   font-size: 14px;
 }
+
 .name {
   font-size: 25px;
 }
-.centered-container {
+
+.card-container {
   border-radius: 20px;
-  height: 100vh;
   background-color: hsl(0, 0%, 12%);
   display: flex;
   flex-direction: column;
@@ -33,6 +43,7 @@ body {
   justify-content: center;
   text-align: center;
 }
+
 button {
   min-width: 200px;
   padding: 12px 20px;
@@ -46,8 +57,8 @@ button {
     pointer;
   transition: all 0.3s ease;
   margin-bottom: 13px;
-  
 }
+
 .profile-image {
   width: 70px;
   height: 70px;
